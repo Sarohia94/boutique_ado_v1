@@ -11,10 +11,6 @@ body {
 }
 
 /* from Bulma */
-/* icon class taken from another CSS framework similar to bootstrap called Bulma,
-which will ensure that whenever font awesome icons are used,
-they will always stay perfectly centred and have a consistent size
-unless manually changed. */
 .icon {
     align-items: center;
     display: inline-flex;
@@ -58,6 +54,10 @@ unless manually changed. */
 
 .border-black {
     border: 1px solid black !important;
+}
+
+.bg-black {
+    background: #000 !important;
 }
 
 /* -------------------------------- Media Queries */
